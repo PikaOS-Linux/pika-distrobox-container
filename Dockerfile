@@ -11,4 +11,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y upgrade --allow-downgrades
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 # Add Packages
-RUN DEBIAN_FRONTEND=noninteractive apt-get install ubuntu-minimal -y
+RUN DEBIAN_FRONTEND=noninteractive apt-get install ubuntu-minimal pika-baseos -y
