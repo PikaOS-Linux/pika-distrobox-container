@@ -1,3 +1,5 @@
+# We just want ubuntu with our apt packages already included
+# Bump for rebuild on 28/08/2023 16:45 UTC +3
 # Get Ubuntu Image
 FROM ubuntu:23.04
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update
