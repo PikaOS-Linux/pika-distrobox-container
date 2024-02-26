@@ -1,7 +1,7 @@
 # We just want ubuntu with our apt packages already included
-# Bump for rebuild on 28/08/2023 16:45 UTC +3
+# Bump for rebuild on 26/02/2024 16:27 UTC +3 
 # Get Ubuntu Image
-FROM ubuntu:23.04
+FROM ubuntu:23.10
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install software-properties-common sudo git bc gpg gpg-agent wget -y
 # Install Pika Apt Sources
